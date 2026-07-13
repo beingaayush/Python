@@ -1,5 +1,4 @@
 
-11. Functions
 12. Scope
 
 
@@ -13,3 +12,4 @@ TypeCasting
 Operators
 conditional Statements - if-elif-else
 Loops - for | while | break, continue, pass
+Functions in Py
