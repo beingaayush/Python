@@ -1,0 +1,9 @@
+Python has only 2 loops:
+> for loop
+> while loop
+
+| `for`                            | `while`                       |
+| -------------------------------- | ----------------------------- |
+| Fixed iterations                 | Unknown iterations            |
+| `range()`, list, string ke saath | Condition ke basis par        |
+| Infinite loop ka chance kam      | Infinite loop ka chance zyada |
