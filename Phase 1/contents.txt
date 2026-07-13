@@ -1,7 +1,3 @@
-
-12. Scope
-
-
 Print
 Variables
 string + Variable
