@@ -1,5 +1,5 @@
-1. Hello World & print()
-2. Comments
+1. Print
+2. Comments - use hash( # )
 3. Variables
 4. Data Types
 5. Input (input())
