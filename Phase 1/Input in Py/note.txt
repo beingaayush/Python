@@ -1,0 +1,14 @@
+input() hamesha str return karta hai.
+Chahe user number hi kyu na enter kare.
+
+
+age = input("Enter age: ")
+print(age)
+print(type(age))
+
+
+Input - 21
+
+Output :
+21
+<class 'str'>
