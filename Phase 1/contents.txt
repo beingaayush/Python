@@ -1,6 +1,4 @@
 
-8. 
-9. Loops
 10. break, continue, pass
 11. Functions
 12. Scope
@@ -15,3 +13,4 @@ Input in Python
 TypeCasting
 Operators
 conditional Statements - if-elif-else
+Loops
