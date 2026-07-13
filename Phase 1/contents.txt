@@ -1,8 +1,4 @@
-1. Print
-2. Comments - use hash( # )
-3. Variables
-4. Data Types
-5. Input (input())
+
 6. Type Casting
 7. Operators
 8. if-elif-else
