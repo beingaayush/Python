@@ -1,0 +1,11 @@
+Function = Ek reusable block of code jo ek specific task perform karta hai.
+
+Syntax:
+
+def function_name():
+    # function body
+
+def → function define karne ka keyword.
+function_name → function ka naam.
+() → parameters yahan aate hain.
+: → function start.    
