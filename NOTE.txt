@@ -1,0 +1,9 @@
+Notes for a C++ Programmer :-
+
+-> ; (semicolon) ki zarurat nahi.
+
+-> {} (curly braces) nahi hote; indentation blocks define karti hai.
+
+-> Variable declaration ke liye int, float, string nahi likhte.
+
+-> Python me code readability bahut important hai, isliye indentation ko kabhi ignore mat karna.
