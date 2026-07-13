@@ -10,3 +10,12 @@
 10. break, continue, pass
 11. Functions
 12. Scope
+
+
+Print
+Variables
+string + Variable
+Data Types
+Escape characters
+Input in Python
+TypeCasting
