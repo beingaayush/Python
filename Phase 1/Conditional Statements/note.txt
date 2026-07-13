@@ -1,0 +1,14 @@
+Python me {} (curly braces) nahi hote. Indentation (spaces) hi block define karti hai.
+
+Indentation (Important) :
+
+Correct:
+if True:
+    print("Hello")
+
+Wrong:
+if True:
+print("Hello")
+Error - IndentationError
+
+Python indentation ke bina code nahi chalta.
