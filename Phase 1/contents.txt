@@ -1,6 +1,4 @@
 
-
-7. Operators
 8. if-elif-else
 9. Loops
 10. break, continue, pass
