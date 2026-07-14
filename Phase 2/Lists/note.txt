@@ -1,0 +1,167 @@
+What is a List?
+A List is an ordered, mutable collection of multiple values stored in a single variable.
+
+Ordered → Elements maintain their insertion order.
+Mutable → Elements can be modified after creation.
+Allows Duplicates → Same value can appear multiple times.
+Heterogeneous → Can store different data types together.
+
+Syntax:
+list_name = [element1, element2, element3]
+Example: fruits = ["Apple", "Banana", "Mango"]
+
+Characteristics:
+> Uses square brackets []
+> Index starts from 0
+> Supports positive and negative indexing
+> Size can grow or shrink dynamically
+> Stores any data type (int, float, string, bool, even another list)
+
+Examples :-
+numbers = [10, 20, 30]
+names = ["Aayush", "Alex", "Aman"]
+mixed = ["Python", 21, 99.5, True]
+empty = []
+matrix = [[1, 2], [3, 4]]
+--------------------------------------------------------------------------------------------
+
+---------------------------------------------
+Accessing Elements :
+fruits = ["Apple", "Banana", "Mango"]
+
+fruits[0]      # Apple
+fruits[1]      # Banana
+fruits[2]      # Mango
+
+Length of List :- len(fruits)
+---------------------------------------------
+
+-------------------------------------------------------------------------
+negative indexing:-
+> Negative indexing starts from the end of the list.
+> Useful when you want the last few elements without knowing the list size.
+
+eg:- fruits = ["Apple", "Banana", "Mango", "Orange"]
+print(fruits[-1])   # Orange
+print(fruits[-2])   # Mango
+--------------------------------------------------------------------------
+
+-------------------------------------------------------
+slicing:-
+Slicing is used to get multiple elements from a list.
+
+syntax = list[start : end]
+start → Included
+end → Excluded
+Think of it as: [start, end)
+
+eg:- numbers = [10,20,30,40,50,60]
+numbers[1:4] | output - [20, 30, 40]
+Because index 1 is included, index 4 is excluded.
+
+Omitting Start :-
+numbers[:4] | output - [10,20,30,40]
+Starts from index 0 automatically.
+
+Omitting End :-
+numbers[2:] | output - [30, 40, 50, 60]
+Goes till the end.
+
+Complete Copy:-
+numbers[:]
+Returns a copy of the entire list.
+-------------------------------------------------------
+
+-----------------------------
+Reverse List:-
+numbers[::-1]
+
+Output - [60,50,40,30,20,10]
+-1 means move backwards.
+-----------------------------
+
+--------------------------------------------------------------------------------------------------
+AI Engineering Example
+
+Suppose LLM ne 100 tokens return kiye.
+
+tokens = [1,2,3,4,5,6,7,8,9,10]
+
+First 5 tokens
+
+tokens[:5]
+
+Last 3 tokens
+
+tokens[-3:]
+
+Reverse sequence
+
+tokens[::-1]
+
+Ye concepts NLP, tokenization, batching aur context window management me regularly use hote hain.
+--------------------------------------------------------------------------------------------------
+
+-----------------------------------------------
+Modification:-
+
+| Method     | Purpose                       |
+| ---------- | ----------------------------- |
+| `=`        | Update an existing element    |
+| `append()` | Add one element at the end    |
+| `extend()` | Add multiple elements         |
+| `insert()` | Insert at a specific index    |
+| `remove()` | Remove by value               |
+| `pop()`    | Remove by index and return it |
+| `del`      | Delete element/slice/list     |
+| `clear()`  | Remove all elements           |
+-----------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------
+AI Engineering Example:-
+chat_history = [
+    "Hello",
+    "What is AI?",
+    "Explain RAG"
+]
+
+Lists are widely used for:
+
+Chat History
+Prompt Storage
+Embeddings
+Dataset Samples
+API Responses
+Token Lists
+Key Points
+Created using []
+Ordered
+Mutable
+Duplicates allowed
+Multiple data types supported
+Index starts from 0
+len() returns total elements
